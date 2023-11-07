@@ -5,11 +5,11 @@ import './welcome.css'
 const Welcome = () => {
     return (
         <ReactScrollWheelHandler
-        upHandler={() => console.log("Hello World")}>
+        downHandler={() => console.log("Hello World")}>
             <div className='welcome'>
                 <h1>Welcome!</h1>
                 <div className="navigate">
-                    <span>Scroll Up</span>
+                    <span>Scroll down</span>
                     <button onClick={() => console.log("Hello There")}></button>
                 </div>
             </div>
