@@ -1,5 +1,6 @@
 :root {
     --arrow: rgba(255, 255, 255, 80%);
+    --arrow-alt: rgb(255, 255, 255);
 }
 
 .welcome {
@@ -25,7 +26,7 @@
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, -10%);
-    height: 40px;
+    height: 60px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -37,15 +38,54 @@
     outline: 0;
     border: none;
     background-color: transparent;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     transform: rotate(-45deg);
     border-bottom: 1px solid var(--arrow);
     border-left: 1px solid var(--arrow);
     cursor: pointer;
+    animation-name: arrow;
+    animation-duration: .9s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.navigate button:hover {
+    border-bottom: 2px solid var(--arrow-alt);
+    border-left: 2px solid var(--arrow-alt);
 }
 
 .navigate span {
     color: rgba(255, 255, 255, 30%);
     font-size: 14px;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0) rotate(-45deg);
+        border-bottom: 1px solid var(--arrow);
+        border-left: 1px solid var(--arrow);
+    }
+
+    25% {
+        transform: translateY(-10px) rotate(-45deg);
+        border-bottom: 1.5px solid var(--arrow-alt);
+        border-left: 1.5px solid var(--arrow-alt);
+    }
+    50% {
+        transform: translateY(-20px) rotate(-45deg);
+        border-bottom: 2px solid var(--arrow-alt);
+        border-left: 2px solid var(--arrow-alt);
+    }
+    75% {
+        transform: translateY(-10px) rotate(-45deg);
+        border-bottom: 1.5px solid var(--arrow-alt);
+        border-left: 1.5px solid var(--arrow-alt);
+    }
+    100% {
+        transform: translateY(0) rotate(-45deg);
+        border-bottom: 1px solid var(--arrow);
+        border-left: 1px solid var(--arrow);
+    }
 }

@@ -1,11 +1,19 @@
-import React from 'react'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Welcome from './Pages/Welcome'
 
 const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Welcome/>,
+    },
+  ]);
+
   return (
-    <div>
-      <Welcome/>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
