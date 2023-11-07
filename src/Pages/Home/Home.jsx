@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactScrollWheelHandler from 'react-scroll-wheel-handler'
-import './welcome.css'
+import './stylesheet.css'
+import { useNavigate } from 'react-router-dom'
 
 const Welcome = () => {
+    const navigate = useNavigate()
     return (
         <ReactScrollWheelHandler
-        downHandler={() => console.log("Hello World")}>
+        downHandler={() => navigate('/login')}>
             <div className='welcome'>
                 <h1>Welcome!</h1>
                 <div className="navigate">
