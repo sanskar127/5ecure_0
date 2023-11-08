@@ -12,7 +12,7 @@ const Welcome = () => {
                 <h1>Welcome!</h1>
                 <div className="navigate">
                     <span>Scroll down</span>
-                    <button onClick={() => console.log("Hello There")}></button>
+                    <button onClick={() => navigate('./login')}></button>
                 </div>
             </div>
         </ReactScrollWheelHandler>

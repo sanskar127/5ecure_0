@@ -1,0 +1,50 @@
+:root {
+    --primary: rgba(255, 255, 255, 40%);
+    --secondary: #ffffff;
+}
+
+.Login {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.Login h3 {
+    color: rgba(217, 217, 217, 0.77);
+    font-family: Inconsolata;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 42px;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    padding: 9px 6px;
+    transition: .2s;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: #000000;
+    outline: 0;
+    border: none;
+    background-color: var(--primary);
+}
+
+.test {
+    width: 100%;
+    color: #000000;
+    outline: 0;
+    border: none;
+    background-color: var(--primary);
+    padding: 9px 6px;
+}
