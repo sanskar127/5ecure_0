@@ -1,7 +1,7 @@
 .bar {
-    position: fixed;
+    position: absolute;
     height: 100%;
-    width: 260px;
+    width: 320px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -9,4 +9,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.switchTo {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switchTo button {
+    background: transparent;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 40%);
+    transition: .6s;
+}
+
+.switchTo button:hover, .switchTo button:focus {
+    color: #ffffff;
 }

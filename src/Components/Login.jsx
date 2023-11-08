@@ -14,10 +14,9 @@ const Login = () => {
                     <input type="password" name="passwd" placeholder='Password' />
                 </div>
 
-                {/* <div className="input gg">
+                <div className="input">
                     <input type="submit" value="Login" />
-                </div> */}
-                <button className="test">Login</button>
+                </div>
             </form>
         </div>
     )

@@ -1,5 +1,5 @@
 :root {
-    --arrow: rgba(255, 255, 255, 80%);
+    --arrow: rgba(255, 255, 255, 40%);
     --arrow-alt: rgb(255, 255, 255);
 }
 
@@ -57,7 +57,7 @@
 }
 
 .navigate span {
-    color: rgba(255, 255, 255, 30%);
+    color: var(--arrow);
     font-size: 14px;
 }
 

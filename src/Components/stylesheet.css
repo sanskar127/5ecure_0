@@ -1,10 +1,17 @@
 :root {
     --primary: rgba(255, 255, 255, 40%);
     --secondary: #ffffff;
+    --font: rgba(255, 255, 255, 40%);
+}
+
+::placeholder {
+    font-family: Inconsolata;
+    font-weight: 400;
+    color: var(--font);
 }
 
 .Login {
-    width: 100%;
+    width: 80%;
     height: auto;
     text-align: center;
 }
@@ -12,18 +19,20 @@
 .Login h3 {
     color: rgba(217, 217, 217, 0.77);
     font-family: Inconsolata;
-    font-size: 21px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 24px;
 }
 
 .input {
     width: 100%;
     margin-bottom: 42px;
+    box-sizing: border-box;
 }
 
 input {
-    width: 100%;
+    width: 95%;
+    color: var(--font);
     background-color: transparent;
     outline: 0;
     border: none;
@@ -33,18 +42,12 @@ input {
 }
 
 input[type=submit] {
+    font-family: Inconsolata;
+    font-weight: 600;
     width: 100%;
     color: #000000;
     outline: 0;
     border: none;
     background-color: var(--primary);
-}
-
-.test {
-    width: 100%;
-    color: #000000;
-    outline: 0;
-    border: none;
-    background-color: var(--primary);
-    padding: 9px 6px;
+    cursor: pointer;
 }
