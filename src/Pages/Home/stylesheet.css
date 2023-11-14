@@ -49,11 +49,11 @@
     animation-iteration-count: 1;
     animation-delay: .4s;
     animation-timing-function: ease-in-out;
+    transition: .4s;
 }
 
-.navigate button:hover {
-    border-bottom: 2px solid var(--arrow-alt);
-    border-left: 2px solid var(--arrow-alt);
+.navigate button:hover, .navigate button:focus {
+    border-color: var(--arrow-alt);
 }
 
 .navigate span {

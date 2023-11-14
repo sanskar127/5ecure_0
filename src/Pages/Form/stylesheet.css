@@ -28,6 +28,6 @@
     transition: .6s;
 }
 
-.switchTo button:hover, .switchTo button:focus {
+.switchTo button:hover {
     color: #ffffff;
 }
