@@ -5,9 +5,20 @@ import Sidebar from '../../Components/Sidebar'
 
 const Dashboard = () => {
   return (
-    <div>
-      {/* <Navbar/> */}
-      <Sidebar/>
+    <div className='dashboard'>
+      <section className='nav-item'>
+        <Navbar />
+
+      </section>
+
+      <section className='side-item'>
+        <Sidebar />
+
+      </section>
+
+      <section className='main'>
+
+      </section>
     </div>
   )
 }

@@ -1,35 +1,41 @@
 [
     {
+        "id": 1,
         "name": "Steam",
         "icon": "favicons/steam.svg",
         "accounts": 4
     },
 
     {
+        "id": 2,
         "name": "Epic Games",
         "icon": "favicons/epicgames.svg",
         "accounts": 2
     },
 
     {
+        "id": 3,
         "name": "Google",
         "icon": "favicons/google.svg",
         "accounts": 7
     },
 
     {
+        "id": 4,
         "name": "Github",
         "icon": "favicons/github.svg",
         "accounts": 1
     },
 
     {
+        "id": 5,
         "name": "Apna College",
         "icon": "favicons/apnacollege.svg",
         "accounts": 1
     },
 
     {
+        "id": 6,
         "name": "Riot Games",
         "icon": "favicons/riotgames.svg",
         "accounts": 4

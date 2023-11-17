@@ -45,10 +45,10 @@
     border-left: 1px solid var(--arrow);
     cursor: pointer;
     animation-name: arrow;
-    animation-duration: .9s;
+    animation-duration: .6s;
     animation-iteration-count: 1;
     animation-delay: .4s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     transition: .4s;
 }
 
