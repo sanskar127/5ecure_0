@@ -39,5 +39,19 @@
         "name": "Riot Games",
         "icon": "favicons/riotgames.svg",
         "accounts": 4
+    },
+
+    {
+        "id": 7,
+        "name": "Swag Wala Developer",
+        "icon": "favicons/swagwaladeveloper.png",
+        "accounts": 1
+    },
+
+    {
+        "id": 8,
+        "name": "PlayStation Network",
+        "icon": "favicons/playstation.svg",
+        "accounts": 4
     }
 ]
