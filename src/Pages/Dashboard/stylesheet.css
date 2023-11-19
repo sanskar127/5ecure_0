@@ -25,12 +25,12 @@
 .main h2 {
     font-size: 24px;
     font-weight: 400;
-    width: 90%;
     text-align: start;
 }
 
 .main-body {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 90%;
     height: 65%;
