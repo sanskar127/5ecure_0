@@ -1,12 +1,12 @@
 import React from 'react'
 import './stylesheet.css'
 
-const AccountsCard = ({ name = null, icon = null, accounts = null, action = null, style }) => {
+const AccountsCard = ({ name, icon, accounts, action = null }) => {
     return (
-        <div className='accounts-card' style={style} onClick={action}>
+        <div className='accounts-card' onClick={action}>
             <img src={icon} alt={name} />
             <h3>{name}</h3>
-            <h4>{accounts} {accounts == 1 ? "Account" : (accounts == null ? null : "Accounts")}</h4>
+            <h4>{accounts} {accounts == 1 ? "Account" : (accounts == undefined ? null : "Accounts")}</h4>
         </div>
     )
 }

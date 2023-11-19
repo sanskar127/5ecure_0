@@ -11,18 +11,17 @@ const Dashboard = () => {
     <div className='dashboard'>
       <section className='nav-item'>
         <Navbar />
-
       </section>
 
       <section className='side-item'>
         <Sidebar />
-
       </section>
 
       <section className='main'>
+        <h2>24 Accounts</h2>
         <div className="main-body">
           {Backend.map(item => <AccountsCard key={item.id} name={item.name} icon={item.icon} accounts={item.accounts} />)}
-          <AccountsCard icon={AddIcon} style={{backgroundColor: "rgba(255, 255, 255, 5%)"}} />
+          <AccountsCard icon={AddIcon} />
         </div>
       </section>
     </div>

@@ -2,7 +2,6 @@
     display: grid;
     grid-template-rows: 72px auto;
     grid-template-columns: 280px auto;
-        
 }
 
 .side-item {
@@ -14,4 +13,26 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
-    
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-height: 90vh;
+}
+
+.main h2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 90%;
+    text-align: start;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 65%;
+    overflow: auto;
+}
