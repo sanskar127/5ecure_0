@@ -150,7 +150,7 @@ nav {
 
 .user h3 {
     font-weight: 500;
-    font-size: 110%;
+    font-size: 140%;
     margin-right: 8px;
 }
 
@@ -213,11 +213,6 @@ nav {
     line-height: 8px;
 }
 
-.temp {
-    width: 4px;
-    height: 4px;
-}
-
 .accounts-card {
     display: flex;
     flex-flow: column;
@@ -229,6 +224,7 @@ nav {
     box-sizing: border-box;
     transition: .2s;
     margin: 12px;
+    padding: 16px;
     text-align: center;
     cursor: pointer;
 }
@@ -241,9 +237,13 @@ nav {
     width: 35%;
 }
 
+.accounts-label {
+    bottom: 0;
+}
+
 .accounts-card h3 {
     color: rgba(255, 255, 255, 80%);
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     margin-top: 26px;

@@ -1,123 +1,106 @@
 [
     {
         "id": 1,
-        "name": "Steam",
-        "icon": "favicons/steam.svg",
-        "accounts": 4
-    },
-
-    {
-        "id": 2,
-        "name": "Epic Games",
-        "icon": "favicons/epicgames.svg",
-        "accounts": 2
-    },
-
-    {
-        "id": 3,
         "name": "Google",
         "icon": "favicons/google.svg",
         "accounts": 7
     },
-
     {
-        "id": 4,
-        "name": "Github",
-        "icon": "favicons/github.svg",
-        "accounts": 1
-    },
-
-    {
-        "id": 5,
+        "id": 2,
         "name": "Apna College",
         "icon": "favicons/apnacollege.svg",
         "accounts": 1
     },
-
+    {
+        "id": 3,
+        "name": "Steam",
+        "icon": "favicons/steam.svg",
+        "accounts": 4
+    },
+    {
+        "id": 4,
+        "name": "Epic Games",
+        "icon": "favicons/epicgames.svg",
+        "accounts": 2
+    },
+    {
+        "id": 5 ,
+        "name": "Github",
+        "icon": "favicons/github.svg",
+        "accounts": 1
+    },
     {
         "id": 6,
         "name": "Riot Games",
         "icon": "favicons/riotgames.svg",
         "accounts": 4
     },
-
     {
         "id": 7,
         "name": "Swag Wala Developer",
         "icon": "favicons/swagwaladeveloper.png",
         "accounts": 1
     },
-
     {
         "id": 8,
         "name": "PlayStation Network",
         "icon": "favicons/playstation.svg",
         "accounts": 4
     },
-
     {
         "id": 9,
         "name": "Amazon",
         "icon": "favicons/amazon.svg",
         "accounts": 2
     },
-
     {
         "id": 10,
         "name": "Discord",
         "icon": "favicons/discord.svg",
         "accounts": 2
     },
-
     {
         "id": 11,
         "name": "EA Games",
         "icon": "favicons/ea.svg",
         "accounts": 1
     },
-
     {
         "id": 12,
         "name": "GOG",
         "icon": "favicons/gog.svg",
         "accounts": 1
     },
-
     {
         "id": 13,
         "name": "iCloud",
         "icon": "favicons/icloud.svg",
         "accounts": 1
     },
-
     {
         "id": 14,
         "name": "itch.io",
         "icon": "favicons/itch.svg",
         "accounts": 1
     },
-
     {
         "id": 15,
         "name": "Mega",
         "icon": "favicons/mega.svg",
         "accounts": 2
     },
-
     {
         "id": 16,
         "name": "Microsoft",
         "icon": "favicons/microsoft.svg",
         "accounts": 1
     },
-
     {
         "id": 17,
         "name": "Twitch.tv",
         "icon": "favicons/twitch.svg",
         "accounts": 1
     },
-
     {
         "id": 18,
         "name": "Ubisoft",

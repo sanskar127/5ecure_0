@@ -18,7 +18,7 @@ const Navbar = () => {
         </button>
         <button className="user">
           <img src={User} alt="User Icon" />
-          <h3>Username</h3>
+          <h3>Sanskar</h3>
         </button>
       </div>
     </nav>
